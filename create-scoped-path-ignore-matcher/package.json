@@ -1,0 +1,36 @@
+{
+  "name": "@alexstevovich/create-scoped-path-ignore-matcher",
+  "version": "1.0.0",
+  "description": "Create a hierarchical path-ignore matcher from rule files",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "node --test"
+  },
+  "homepage": "https://alexstevovich.com",
+  "author": {
+    "name": "Alex Stevovich",
+    "email": "dev@alexstevovich.com",
+    "url": "https://alexstevovich.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@alexstevovich/create-path-ignore-matcher": "^1.0.0",
+    "@alexstevovich/load-path-pattern-files": "^1.0.0",
+    "@alexstevovich/path-to-posix": "^1.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "globals": "latest",
+    "prettier": "latest"
+  }
+}
